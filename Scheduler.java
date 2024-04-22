@@ -85,7 +85,7 @@ class ProcessControlBlock {
 public class Scheduler {
 	static ProcessControlBlock[]Q1,Q2;
 	static int q1,q2; // counters for Q1,Q2 respectively
- public static void main(String[]args){
+ public static void main(String[]args) throws IOException {
  }
 	
  public static void CreateProcesses() {
