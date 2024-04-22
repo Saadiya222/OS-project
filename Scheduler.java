@@ -76,6 +76,85 @@ class ProcessControlBlock {
 		        this.ResponseTime = ResponseTime;
 		    }
 
+}
+
+//////////////////////////////////////////////////////////
+
+
+class ProcessControlBlock {
+		   private String ProcessID; 
+		   private int Priority;
+		   private int TimeOfArrival; 
+		   private int CPUburst;
+		   private int StartingTime;
+		   private int TerminatingTime;
+		   private int TurningAroundTime;
+		   private int WaitingTime;
+		   private int ResponseTime;
+
+		    public ProcessControlBlock(String ProcessID, int Priority, int TimeOfArrival, int CPUburst) {
+		        this.ProcessID = ProcessID;
+		        this.Priority = Priority;
+		        this.TimeOfArrival = TimeOfArrival;
+		        this.CPUburst = CPUburst;
+		    }
+
+		    public String getProcessID() {
+		        return ProcessID;
+		    }
+
+		    public int getPriority() {
+		        return Priority;
+		    }
+
+		    public int getTimeOfArrival() {
+		        return TimeOfArrival;
+		    }
+
+		    public int getCPUburst() {
+		        return CPUburst;
+		    }
+
+		    public int getTerminatingTime() {
+		        return TerminatingTime;
+		    }
+
+		    public int getTurningAroundTime() {
+		        return TurningAroundTime;
+		    }
+
+		    public int getWaitingTime() {
+		        return WaitingTime;
+		    }
+
+		    public int getResponseTime() {
+		        return ResponseTime;
+		    }
+
+		    public int getStartingTime() {
+		        return StartingTime;
+		    }
+
+		    public void setStartingTime(int StartingTime) {
+		        this.StartingTime = StartingTime;
+		    }
+
+		    public void setTerminatingTime(int TerminatingTime) {
+		        this.TerminatingTime = TerminatingTime;
+		    }
+
+		    public void setTurningAroundTime(int TurningAroundTime) {
+		        this.TurningAroundTime = TurningAroundTime;
+		    }
+
+		    public void setWaitingTime(int WaitingTime) {
+		        this.WaitingTime = WaitingTime;
+		    }
+
+		    public void setResponseTime(int ResponseTime) {
+		        this.ResponseTime = ResponseTime;
+		    }
+
 		   
 }
 
